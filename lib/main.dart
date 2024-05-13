@@ -1,6 +1,6 @@
-import 'package:aigenerative/pages/home_page.dart';
+import 'package:ai_generativ/pages/home_page.dart';
 import 'package:flutter/material.dart';
-import 'package:aigenerative/utils/utils_colors.dart';
+import 'package:ai_generativ/utils/utils_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'Ai_model/AI_chatScreen.dart';

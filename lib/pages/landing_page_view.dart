@@ -1,5 +1,5 @@
-import 'package:aigenerative/utils/utils_colors.dart';
-import 'package:aigenerative/widgets/all_books_widget.dart';
+import 'package:ai_generativ/utils/utils_colors.dart';
+import 'package:ai_generativ/widgets/all_books_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 

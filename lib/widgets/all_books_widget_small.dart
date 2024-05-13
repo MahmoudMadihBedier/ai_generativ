@@ -1,4 +1,4 @@
-import 'package:aigenerative/utils/utils_colors.dart';
+import 'package:ai_generativ/utils/utils_colors.dart';
 import 'package:flutter/material.dart';
 
 class AllBooksWidgetSmall extends StatelessWidget {
