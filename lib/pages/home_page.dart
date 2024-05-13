@@ -229,7 +229,14 @@ class Header extends StatelessWidget {
                       width: 50,
                       color: Colors.white,
                       padding: const EdgeInsets.all(5),
-                      child: Icon(Icons.adb_sharp, color: BookStoreColors.darkBrown, size: 24),
+                      child:  IconButton(
+                        onPressed:() {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const ChatScreen(title: '',)));
+                        } ,
+                       icon:  Icon(Icons.adb_sharp, color: BookStoreColors.darkBrown, size: 24),
+                      ),
                     ),
                   ),
                 )
