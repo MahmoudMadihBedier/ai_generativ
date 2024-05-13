@@ -1,4 +1,4 @@
-import 'package:ai_generativ/models/book_category.dart';
+import 'package:aigenerative/models/book_category.dart';
 import 'package:aigenerative/models/book_model.dart';
 import 'package:aigenerative/pages/home_page.dart';
 import 'package:aigenerative/utils/utils_colors.dart';
