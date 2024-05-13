@@ -1,9 +1,9 @@
-import 'package:aigenerative/models/book_model.dart';
-import 'package:aigenerative/pages/books_page_view.dart';
-import 'package:aigenerative/pages/landing_page_view.dart';
-import 'package:aigenerative/pages/play_page_view.dart';
-import 'package:aigenerative/pages/settings_page_view.dart';
-import 'package:aigenerative/utils/utils_colors.dart';
+import 'package:ai_generativ/models/book_model.dart';
+import 'package:ai_generativ/pages/books_page_view.dart';
+import 'package:ai_generativ/pages/landing_page_view.dart';
+import 'package:ai_generativ/pages/play_page_view.dart';
+import 'package:ai_generativ/pages/settings_page_view.dart';
+import 'package:ai_generativ/utils/utils_colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';

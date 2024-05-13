@@ -1,6 +1,6 @@
-import 'package:aigenerative/models/book_model.dart';
-import 'package:aigenerative/utils/utils_colors.dart';
-import 'package:aigenerative/widgets/book_widget_category.dart';
+import 'package:ai_generativ/models/book_model.dart';
+import 'package:ai_generativ/utils/utils_colors.dart';
+import 'package:ai_generativ/widgets/book_widget_category.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
