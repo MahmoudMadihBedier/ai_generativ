@@ -206,7 +206,7 @@ class Header extends StatelessWidget {
                       ),
                       const SizedBox(width: 10),
                       Text(
-                        'Hi, Natalie!',
+                        'Hi, ......!',
                         textAlign: TextAlign.center,
                         style: GoogleFonts.gentiumBookPlus().copyWith(
                           color: BookStoreColors.darkBrown,
