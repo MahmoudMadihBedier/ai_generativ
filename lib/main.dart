@@ -15,6 +15,7 @@ class GenerativeAISample extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'AI generative app ',
       theme: ThemeData(
         textTheme: GoogleFonts.gentiumBookPlusTextTheme(),

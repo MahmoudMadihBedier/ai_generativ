@@ -1,4 +1,5 @@
 
+import 'package:ai_generativ/utils/utils_colors.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
@@ -19,9 +20,10 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(widget.title),
-      ),
+      backgroundColor: BookStoreColors.lightSand ,
+      // appBar: AppBar(
+      //   title: Text(widget.title),
+      // ),
       body: apiKey == null
           ? ApiKeyWidget(
         onSubmitted: (key) {
@@ -161,6 +163,7 @@ class _ChatWidgetState extends State<ChatWidget> {
               children: [
                 Expanded(
                   child: TextField(
+                    // style: const TextStyle(color: Colors.white),
                     autofocus: true,
                     focusNode: _textFieldFocus,
                     decoration:
